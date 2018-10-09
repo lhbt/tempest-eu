@@ -5,6 +5,8 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "fontfaceobserver": "^2.0.13",
+    "gulp": "^3.9.1",
+    "gulp-deploy-ftp": "^1.0.1",
     "lazysizes": "^4.1.4",
     "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
