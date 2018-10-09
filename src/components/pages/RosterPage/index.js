@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import './styles.scss'
 
@@ -13,6 +14,9 @@ const RosterPage = () => {
     <PageTemplate
       header={<Header />}
     >
+      <Helmet>
+        <title>Tempest Guild - Roster</title>
+      </Helmet>
       <div className="roster-page__wrapper">
         {roster.map((category) => {
           return (

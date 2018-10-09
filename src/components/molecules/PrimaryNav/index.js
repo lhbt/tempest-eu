@@ -24,7 +24,7 @@ const PrimaryNav = ({
           <Link className="primary-nav__link" to="/recruitment">Recruitment</Link>
         </li>
         <li className="primary-nav__item">
-          <Link className="primary-nav__link" to="/marks-drawings">{'The guild\'s drawings'}</Link>
+          <Link className="primary-nav__link" to="/guild-drawings">{'Guild drawings'}</Link>
         </li>
       </ul>
     </nav>

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
+
 import './styles.scss'
 
 import PageTemplate from '../../templates/PageTemplate/index'
@@ -10,7 +12,10 @@ const HomePage = () => (
   <PageTemplate
     className="homepage"
     header={<Header />}
-  >
+    >
+    <Helmet>
+      <title>Tempest Guild</title>
+    </Helmet>
     <div className="homepage__wrapper">
       <div className="homepage__left-column">
         <Recruitment className="homepage__recruitment" />

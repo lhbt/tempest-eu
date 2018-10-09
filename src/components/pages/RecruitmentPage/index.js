@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import './styles.scss'
 
@@ -10,6 +11,9 @@ const RecruitmentPage = () => (
   <PageTemplate
     header={<Header />}
   >
+    <Helmet>
+        <title>Tempest Guild - Recruitment</title>
+      </Helmet>
     <div className="recruitment-page__main">
       <Heading level={1} className="recruitment-page__main-heading">Recruitment</Heading>
       <Heading level={2} className="recruitment-page__secondary-heading">Our goals</Heading>
