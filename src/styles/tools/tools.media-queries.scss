@@ -1,0 +1,68 @@
+//
+// Converts a value to a string
+//
+
+@function toString($value) {
+  @return inspect($value);
+}
+
+//
+// Returns a named breakpoint or custom width depending on whats passed in
+//
+
+@function formatBreakpoint($width, $min: false) {
+  $str: toString($width);
+
+  @if (str-index($str, 'px')) {
+    @if ($min == true) {
+      @return $width + 1px;
+    } @else {
+      @return $width;
+    }
+  } @else {
+    $namedWidth: map-get($media-queries, $width);
+
+    @if ($min == true) {
+      @return $namedWidth + 1px;
+    } @else {
+      @return $namedWidth;
+    }
+  }
+}
+
+//
+// Returns a 'max-width' media query for a given breakpoint
+//
+
+@mixin below($max) {
+  $query: formatBreakpoint($max);
+
+  @media (max-width: $query) {
+    @content;
+  }
+}
+
+//
+// Returns a 'min-width' media query for a given breakpoint
+//
+
+@mixin above($min) {
+  $query: formatBreakpoint($min, true);
+
+  @media (min-width: $query) {
+    @content;
+  }
+}
+
+//
+// Returns a 'min-width' and 'max-width' media query for a given breakpoint
+//
+
+@mixin between($min, $max) {
+  $minQuery: formatBreakpoint($min, true);
+  $maxQuery: formatBreakpoint($max);
+
+  @media (min-width: $minQuery) and (max-width: $maxQuery) {
+    @content;
+  }
+}

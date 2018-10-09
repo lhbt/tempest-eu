@@ -1,0 +1,58 @@
+$palette: (
+  base: (
+    alpha:       #1d1d1d,
+    bravo:       #41b4e8,
+    charlie:     #1c304a,
+    delta:       #ffd47c,
+    echo:        #5b50a8,
+  ),
+  supporting: (
+    alphaLight:  #f68744,
+    alphaDark:   #e85b17,
+    bravoLight:  #a7dad4,
+    bravoDark:   #004b4b,
+    charlieDark: #212138,
+    deltaLight:  #fde3ae,
+    error:       #fc4343,
+    errorLight:  #ffefef,
+  ),
+  grayscale: (
+    alpha:       #f3f3f3,
+    bravo:       #e3e3e3,
+    charlie:     #9998a2,
+    delta:       #636171
+  )
+);
+
+$palette-base: map-get($palette, 'base');
+$palette-supporting: map-get($palette, 'supporting');
+$palette-grayscale: map-get($palette, 'grayscale');
+
+// Map colours to the palette
+
+$colour-white: #ffffff;
+$colour-error: map-get($palette-supporting, 'error');
+$colour-error-light: map-get($palette-supporting, 'errorLight');
+
+$colour-alpha: map-get($palette-base, 'alpha');
+$colour-alpha-light: map-get($palette-supporting, 'alphaLight');
+$colour-alpha-dark: map-get($palette-supporting, 'alphaDark');
+$colour-bravo: map-get($palette-base, 'bravo');
+$colour-bravo-light: map-get($palette-supporting, 'bravoLight');
+$colour-bravo-dark: map-get($palette-supporting, 'bravoDark');
+$colour-charlie: map-get($palette-base, 'charlie');
+$colour-charlie-dark: map-get($palette-supporting, 'charlieDark');
+$colour-delta: map-get($palette-base, 'delta');
+$colour-delta-light: map-get($palette-supporting, 'deltaLight');
+$colour-echo: map-get($palette-base, 'echo');
+$colour-foxtrot: map-get($palette-base, 'foxtrot');
+
+$colour-gray-alpha: map-get($palette-grayscale, 'alpha');
+$colour-gray-bravo: map-get($palette-grayscale, 'bravo');
+$colour-gray-charlie: map-get($palette-grayscale, 'charlie');
+$colour-gray-delta: map-get($palette-grayscale, 'delta');
+
+// Map colours to elements
+
+$colour-headings: $colour-gray-alpha;
+$colour-body-copy: $colour-gray-alpha;

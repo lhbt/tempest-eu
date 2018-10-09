@@ -1,0 +1,16 @@
+//
+// We recommend setting breakpoints based on when a component breaks, rather
+// than at widths aimed at specific devices.
+//
+// Use these breakpoints to set a generally consistent layout
+//
+
+$media-queries: (
+  xxsmall: 375px,
+  xsmall:  480px,
+  small:   660px,
+  medium:  768px,
+  large:   960px,
+  xlarge:  1024px,
+  xxlarge: 1280px
+);

@@ -1,0 +1,10 @@
+//
+// Mixin to improve rendering performance of fixed elements
+//
+// https://www.youtube.com/watch?v=2vFrZXWiwIc&t=406s
+//
+
+@mixin fixed-element-paint-fix() {
+  transform: translateZ(0);
+  will-change: transform;
+}

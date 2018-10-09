@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Tanks",
+    "players": [
+      {
+        "name": "Subbie",
+        "nationality": "GB",
+        "main": "druid"
+      },
+      {
+        "name": "Moon",
+        "nationality": "GB",
+        "main": "monk"
+      }
+    ]
+  },
+  {
+    "name": "Melees",
+    "players": [
+      {
+        "name": "Zynthe",
+        "nationality": "GB",
+        "main": "rogue"
+      },
+      {
+        "name": "Brontoburger",
+        "nationality": "SE",
+        "main": "deathknight"
+      },
+      {
+        "name": "Unortodox",
+        "nationality": "BG",
+        "main": "monk"
+      },
+      {
+        "name": "Kalivias",
+        "nationality": "GB",
+        "main": "demonhunter"
+      },
+      {
+        "name": "Zujrogue",
+        "nationality": "IE",
+        "main": "rogue"
+      },
+      {
+        "name": "Shinomu",
+        "nationality": "GB",
+        "main": "monk"
+      },
+      {
+        "name": "Keknight",
+        "nationality": "GB",
+        "main": "deathknight"
+      },
+      {
+        "name": "Hoofmanjoe",
+        "nationality": "GB",
+        "main": "paladin"
+      }
+    ]
+  },
+  {
+    "name": "Ranged",
+    "players": [
+      {
+        "name": "Maladorf",
+        "nationality": "GB",
+        "main": "druid"
+      },
+      {
+        "name": "Nezaris",
+        "nationality": "GB",
+        "main": "hunter"
+      },
+      {
+        "name": "Exahunt",
+        "nationality": "BE",
+        "main": "hunter"
+      },
+      {
+        "name": "Dewdle",
+        "nationality": "DK",
+        "main": "mage"
+      },
+      {
+        "name": "Yuki",
+        "nationality": "FR",
+        "main": "warlock"
+      },
+      {
+        "name": "Korupcija",
+        "nationality": "HR",
+        "main": "warlock"
+      },
+      {
+        "name": "Synaria",
+        "nationality": "DK",
+        "main": "mage"
+      },
+      {
+        "name": "Aluthana",
+        "nationality": "SE",
+        "main": "priest"
+      }
+    ]
+  },
+  {
+    "name": "Healers",
+    "players": [
+      {
+        "name": "Chopstìcks",
+        "nationality": "NO",
+        "main": "monk"
+      },
+      {
+        "name": "Ilyiasral",
+        "nationality": "GB",
+        "main": "druid"
+      },
+      {
+        "name": "Sokofretaxxl",
+        "nationality": "UA",
+        "main": "paladin"
+      },
+      {
+        "name": "Vetrie",
+        "nationality": "SI",
+        "main": "shaman"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.homepage {
+  max-width: 1366px;
+  margin: 0 auto;
+  @include clearfix;
+  box-sizing: content-box;
+}
+
+.homepage__wrapper {
+  @include mobile-gutter;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.homepage__left-column {
+  float: left;
+  width: 20%;
+
+  @include below(medium) {
+    display: block;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.homepage__right-column {
+  display: inline-block;
+  width: 75%;
+
+  @include below(medium) {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+
+  }
+}

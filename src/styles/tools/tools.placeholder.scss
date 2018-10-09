@@ -1,0 +1,27 @@
+//
+// Mixin to quickly style input placeholders.
+//
+
+// stylelint-disable selector-no-vendor-prefix
+
+@mixin placeholder($colour) {
+  &::-webkit-input-placeholder {
+    color: $colour;
+  }
+
+  &:-moz-placeholder {
+    color: $colour;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: $colour;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: $colour;
+  }
+}
+
+// stylelint-enable selector-no-vendor-prefix

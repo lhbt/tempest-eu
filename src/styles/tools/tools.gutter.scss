@@ -1,0 +1,13 @@
+//
+// A simple function to quickly apply consistant gutters to elements
+//
+
+@function gutter($multiplier: 0) {
+  $base: map-get($core-gutters, 'base');
+  @return $base * $multiplier;
+}
+
+@mixin mobile-gutter() {
+  padding-left: gutter(1.5);
+  padding-right: gutter(1.5);
+}

@@ -1,0 +1,129 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.recruitment {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 180px;
+  border: 1px solid $colour-gray-charlie;
+  padding: gutter(1);
+
+  @include below(medium) {
+    max-width: 100%;
+  }
+}
+
+.recruitment__text {
+  text-align: center;
+}
+
+.recruitment__heading {
+  margin-bottom: gutter(1);
+  text-align: center;
+}
+
+.recruitment-row__icon-wrapper {
+  max-width: 24px;
+  float: left;
+  margin-right: 5px;
+}
+
+.recruitment-row__class-name {
+  display: inline-block;
+  margin-bottom: 2px;
+  font-size: 18px;
+
+  &.warrior {
+    color: #C79C6E;
+  }
+
+  &.warlock {
+    color: #9482C9;
+  }
+
+  &.shaman {
+    color: #0070DE;
+  }
+
+  &.rogue {
+    color: #FFF569;
+  }
+
+  &.priest {
+    color: #FFFFFF;
+  }
+
+  &.paladin {
+    color: #F58CBA;
+  }
+
+  &.monk {
+    color: #00FF96;
+  }
+
+  &.mage {
+    color: #69CCF0;
+  }
+
+  &.hunter {
+    color: #ABD473;
+  }
+
+  &.druid {
+    color: #FF7D0A;
+  }
+
+  &.demonhunter {
+    color: #A330C9;
+  }
+
+  &.deathknight {
+    color: #C41F3B;
+  }
+}
+
+.recruitment-row__class-spec {
+  float: right;
+}
+
+.recruitment-row__class_spec-icon {
+  border: 2px solid;
+  margin-left: 5px;
+
+  &.low {
+    border-color: green;
+  }
+
+  &.medium {
+    border-color: lightsalmon;
+  }
+
+  &.high {
+    border-color: firebrick;
+  }
+}
+
+.recruitment-priority {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-around;
+  border-top: 1px solid $colour-gray-charlie;
+}
+
+.recruitment-priority__text {
+  margin: 5px auto 0;
+  font-size: 17px;
+
+  &.low {
+    color: green;
+  }
+
+  &.medium {
+    color: orange;
+  }
+
+  &.high {
+    color: red;
+  }
+}

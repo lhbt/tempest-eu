@@ -1,0 +1,73 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+// ==========================================================================
+// Button
+// ==========================================================================
+
+.button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 gutter(3) 3px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 53px;
+  text-align: center;
+  border: 0;
+  background: none;
+  border-radius: 27px;
+  transition: map-get($core-interactions, 'transition');
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &--inactive,
+  &--inactive:hover {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &--primary {
+    @include font-smoothing;
+    font-weight: 600;
+    background-color: $colour-alpha;
+    box-shadow: none;
+
+    &,
+    &:hover {
+      color: $colour-white;
+    }
+
+    &:hover {
+      background-color: $colour-alpha-dark;
+    }
+
+    &.button--inactive,
+    &.button--inactive:hover {
+      background-color: $colour-gray-bravo;
+    }
+  }
+
+  &--secondary {
+    font-weight: 500;
+    color: $colour-charlie;
+    box-shadow: inset 0 0 0 2px $colour-charlie;
+
+    &:hover {
+      color: $colour-alpha-dark;
+      box-shadow: inset 0 0 0 2px $colour-alpha-dark;
+    }
+
+    &.button--inactive,
+    &.button--inactive:hover {
+      color: $colour-gray-charlie;
+      box-shadow: inset 0 0 0 2px $colour-gray-bravo;
+    }
+  }
+}

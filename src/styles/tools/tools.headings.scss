@@ -1,0 +1,27 @@
+//
+// Mixin to apply consistent heading styles to any element
+//
+
+@function getHeadingSettings($level) {
+  @return map-get($headings, $level);
+}
+
+@function getHeadingSize($level) {
+  $settings: getHeadingSettings($level);
+  $font-sizes: map-get($settings, 'font-sizes');
+  @return responsive nth($font-sizes, 1) nth($font-sizes, 2);
+}
+
+@function getHeadingLineHeight($level) {
+  $settings: getHeadingSettings($level);
+  @return map-get($settings, 'line-height');
+}
+
+@mixin heading($level: 'h1') {
+  @include font-smoothing;
+  margin-top: 0;
+  color: $colour-headings;
+  font-size: getHeadingSize($level);
+  font-weight: 600;
+  line-height: getHeadingLineHeight($level);
+}

@@ -1,0 +1,28 @@
+$core-sizes: (
+  maxWidth: 1200px
+);
+
+$core-gutters: (
+  base: 8px // all gutters are a multiple of this
+);
+
+$core-interactions: (
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+);
+
+$core-borders: (
+  radius: 6px,
+  borders: (
+    alpha: 2px solid $colour-gray-alpha,
+    bravo: 2px solid $colour-gray-bravo,
+    charlie: 2px solid $colour-gray-charlie,
+    delta: 2px solid $colour-gray-delta
+  ),
+  shadows: (
+    alpha: inset 0 0 0 2px $colour-gray-alpha,
+    bravo: inset 0 0 0 2px $colour-gray-bravo,
+    charlie: inset 0 0 0 2px $colour-gray-charlie,
+    delta: inset 0 0 0 2px $colour-gray-delta,
+    echo: 0 0 15px 0 rgba(0, 0, 0, 0.10)
+  )
+);

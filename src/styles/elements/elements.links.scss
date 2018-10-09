@@ -1,0 +1,13 @@
+a {
+  color: $colour-alpha;
+  transition: map-get($core-interactions, 'transition');
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $colour-alpha-dark;
+  }
+}

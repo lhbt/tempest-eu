@@ -1,0 +1,65 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.primary-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 34px;
+    font-family: 'Saira';
+    font-weight: 600;
+    text-transform: uppercase;
+
+    @include below(medium) {
+      font-size: 26px;
+    }
+}
+
+.primary-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.primary-nav a.active {
+    background-color: $colour-bravo;
+    color: white;
+}
+
+// ==========================================================================
+// Primary navigation
+// ==========================================================================
+
+// List
+
+.primary-nav__list {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Items
+
+
+// Links
+
+.primary-nav__link {
+  display: block;
+  white-space: nowrap;
+  color: $colour-charlie;
+
+  &.button {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  &--active {
+    color: $colour-alpha;
+  }
+}

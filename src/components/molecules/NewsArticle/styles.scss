@@ -1,0 +1,24 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.news-article__img {
+  max-width: 800px;
+
+  @include below(small) {
+    max-width: 100%;
+  }
+}
+
+.news-article__content {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.news-article__heading {
+  font-size: 44px;
+}
+
+.news-article {
+  text-align: center;
+  margin-bottom: 30px;
+}

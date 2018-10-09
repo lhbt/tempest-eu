@@ -1,0 +1,73 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.player {
+  max-width: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.player__crown {
+  width: 24px;
+  margin-left: 8px;
+}
+
+.player__flag {
+  display: inline-block;
+  width: 24px;
+}
+
+.player__name {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+
+  &.warrior {
+    color: #C79C6E;
+  }
+
+  &.warlock {
+    color: #9482C9;
+  }
+
+  &.shaman {
+    color: #0070DE;
+  }
+
+  &.rogue {
+    color: #FFF569;
+  }
+
+  &.priest {
+    color: #FFFFFF;
+  }
+
+  &.paladin {
+    color: #F58CBA;
+  }
+
+  &.monk {
+    color: #00FF96;
+  }
+
+  &.mage {
+    color: #69CCF0;
+  }
+
+  &.hunter {
+    color: #ABD473;
+  }
+
+  &.druid {
+    color: #FF7D0A;
+  }
+
+  &.demonhunter {
+    color: #A330C9;
+  }
+
+  &.deathknight {
+    color: #C41F3B;
+  }
+}

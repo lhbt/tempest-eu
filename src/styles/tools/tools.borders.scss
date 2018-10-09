@@ -1,0 +1,24 @@
+//
+// Function to apply consistent borders and shadows
+//
+
+@function border($style: 'alpha') {
+  $borders: map-get($core-borders, 'borders');
+  $border: map-get($borders, $style);
+  @return $border;
+}
+
+@function shadow($style: 'alpha') {
+  $shadows: map-get($core-borders, 'shadows');
+  $shadow: map-get($shadows, $style);
+  @return $shadow;
+}
+
+// Border radius
+
+@mixin border-radius($overflow: true) {
+  border-radius: map-get($core-borders, 'radius');
+  @if $overflow == true {
+    overflow: hidden;
+  }
+}

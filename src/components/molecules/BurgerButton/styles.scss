@@ -1,0 +1,79 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+// ==========================================================================
+// Burger button
+// ==========================================================================
+
+.burger-button {
+  position: relative;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border: 0;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: 0;
+  }
+
+  .burger-button__text,
+  &::before,
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -2px;
+    display: block;
+    height: 4px;
+    background: $colour-gray-alpha;
+    border-radius: 2px;
+    transition: map-get($core-interactions, 'transition');
+  }
+
+  &::before {
+    content: '';
+    width: 29px;
+    transform: translateY(-7px)
+  }
+
+  &::after {
+    content: '';
+    width: 18px;
+    transform: translateY(7px)
+  }
+
+  // &--active {
+  //   &::before {
+  //     width: 22px;
+  //     transform: translateX(-4px) rotate(45deg);
+  //   }
+
+  //   &::after {
+  //     width: 22px;
+  //     transform: translateX(-4px) rotate(-45deg);
+  //   }
+  // }
+}
+
+.burger-button:hover {
+  .burger-button__text,
+  &::before,
+  &::after {
+    background: $colour-alpha-dark;
+  }
+}
+
+// Text
+
+.burger-button__text {
+  width: 23px;
+  text-indent: -15em;
+  overflow: hidden;
+
+  .burger-button--active & {
+    opacity: 0;
+  }
+}

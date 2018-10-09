@@ -1,0 +1,55 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+.recruitment-page__main {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: gutter(4);
+  text-align: center;
+
+  @include mobile-gutter;
+}
+
+.recruitment-page__main-heading {
+  margin-bottom: gutter(1);
+  font-size: gutter(8);
+  color: $colour-bravo;
+}
+
+.recruitment-page__secondary-heading {
+  margin-top: gutter(3);
+  margin-bottom: gutter(1);
+  font-size: 46px;
+  color: $colour-bravo;
+}
+
+.recruitment-page__paragraph {
+  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+
+  &.list {
+    margin-bottom: 5px;
+  }
+
+  &.important {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.recruitment-page__list {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+
+  &:hover {
+    color: $colour-bravo;
+  }
+}

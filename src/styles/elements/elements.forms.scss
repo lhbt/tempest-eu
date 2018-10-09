@@ -1,0 +1,155 @@
+// ==========================================================================
+// Form elements
+// ==========================================================================
+
+// Label
+
+label,
+.label {
+  display: table;
+  margin-bottom: gutter(1.5);
+  font-weight: 500;
+  line-height: 1.25; // 20px @ 16px
+  color: $colour-gray-delta;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+//
+// Fields
+// ==========================================================================
+
+$field-line-height: 28px;
+
+%field {
+  @include border-radius;
+  @include placeholder($colour-gray-bravo);
+  box-sizing: border-box;
+  width: 100%;
+  line-height: $field-line-height;
+  color: $colour-charlie;
+  background: $colour-white;
+  border: border('bravo');
+  transition:
+    border 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    opacity 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:-moz-ui-invalid {
+    box-shadow: none;
+  }
+
+  @include below(medium) {
+    font-size: 16px; // iOS zooms if the font size is below 16px
+  }
+
+  &:focus {
+    outline: none;
+    border: 2px solid $colour-alpha-light;
+  }
+}
+
+// Text inputs
+
+input[type=tel],
+input[type=url],
+input[type=text],
+input[type=email],
+input[type=search],
+input[type=password] {
+  @extend %field;
+
+  @include below(medium) {
+    padding: 10px gutter(1.5) 11px;
+    height: 56px;
+  }
+
+  @include above(medium) {
+    padding: 16px gutter(1.5) 17px;
+    height: 64px;
+  }
+
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+// Checkbox/radio inputs
+
+input[type=radio],
+input[type=checkbox] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input + label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: gutter(1);
+  margin-bottom: 0;
+}
+
+// Number inputs
+
+input[type=number] {
+  -moz-appearance:textfield;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+}
+
+// Hidden
+
+input[type=hidden] {
+  display: none;
+}
+
+// Textarea
+
+textarea {
+  @extend %field;
+  padding: gutter(1) gutter(1.5);
+  resize: vertical;
+}
+
+// Selects
+
+select {
+  @extend %field;
+  padding: 0 (gutter(1.5) + 40px) 2px gutter(1.5);
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZWM2YjFlIiBkPSJNMTYuMjkzLjI5M2wtNS44NzkgNS44NzlhMiAyIDAgMCAxLTIuODI4IDBMMS43MDcuMjkyQTEgMSAwIDAgMCAuMjkzIDEuNzA3bDUuODc5IDUuODc5YTQgNCAwIDAgMCA1LjY1NiAwbDUuODgtNS44NzlBMSAxIDAgMSAwIDE2LjI5Mi4yOTN6Ii8+PC9zdmc+') no-repeat right 20px top 50%/18px 9px $colour-white;
+  -webkit-appearance: none;
+
+  &::-ms-expand {
+    display: none;
+  }
+
+  &::-moz-focus-inner {
+    outline: none !important;
+    border: 0 !important;
+  }
+
+  &:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+
+  @include below(medium) {
+    height: 56px;
+  }
+
+  @include above(medium) {
+    height: 64px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

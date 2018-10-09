@@ -1,0 +1,8 @@
+//
+// Adds a pretty underline to an element
+//
+
+@mixin pretty-underline() {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}

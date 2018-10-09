@@ -1,0 +1,24 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+// ==========================================================================
+// Page template
+// ==========================================================================
+
+.site-main {
+  overflow: hidden;
+}
+
+//
+// Footer
+// ==========================================================================
+
+.site-footer {
+  @include below(small) {
+    margin-top: 131px;
+  }
+
+  @include above(small) {
+    margin-top: 136px;
+  }
+}

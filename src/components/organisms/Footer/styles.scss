@@ -1,0 +1,208 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+.site-footer {
+  @include font-smoothing;
+  position: relative;
+  color: $colour-white;
+  font-size: 14px;
+  background: $colour-charlie-dark;
+
+  @include below(medium) {
+    padding: 0 gutter(1.5) gutter(2);
+    text-align: center;
+  }
+
+  @include above(medium) {
+    padding: gutter(6) gutter(1.5);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    background-image: url('./city-illustration.svg');
+    background-repeat: repeat-x;
+    background-position: 50% 0;
+
+    @include below(small) {
+      top: -131px;
+      height: 127px;
+      // size required for IE to repeat SVGs
+      background-size: 598px 127px;
+    }
+
+    @include above(small) {
+      top: -136px;
+      height: 132px;
+      // size required for IE to repeat SVGs
+      background-size: 625px 132px;
+    }
+  }
+
+  &--dark::before {
+    background-color: #fafafa;
+  }
+}
+
+// Inner
+
+.site-footer__inner {
+  margin: 0 auto;
+  max-width: map-get($core-sizes, 'maxWidth');
+}
+
+// Flex container
+
+.site-footer__flex {
+  @include above(medium) {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+//
+// Nav elements
+// ==========================================================================
+
+@include below(medium) {
+  .site-footer__nav {
+    padding: 28px 0 30px;
+  }
+
+  .site-footer__nav--public,
+  .site-footer__nav--business {
+    margin: 0 gutter(2.5);
+    border-bottom: 2px solid rgba(250, 250, 250, 0.24);
+  }
+}
+
+// Public
+
+.site-footer__nav--public {
+  display: flex;
+  flex-flow: row nowrap;
+
+  .site-footer__nav__list {
+    transition: map-get($core-interactions, 'transition');
+
+    @include between(medium, large) {
+      margin-right: gutter(7)
+    }
+
+    @include above(large) {
+      margin-right: gutter(10);
+    }
+  }
+}
+
+// Social
+
+.site-footer__nav--social {
+  margin-left: auto;
+
+  @include above(medium) {
+    text-align: right;
+  }
+
+  .site-footer__nav__item--label {
+    margin-bottom: gutter(2);
+  }
+
+  .site-footer__nav__item--inline {
+    transition: map-get($core-interactions, 'transition');
+
+    @include below(medium) {
+      margin: 0 gutter(2.5);
+      min-width: 30px;
+    }
+
+    @include above(medium) {
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    @include between(medium, large) {
+      margin-right: gutter(4);
+    }
+
+    @include above(large) {
+      margin-right: gutter(5);
+    }
+  }
+}
+
+// Lists
+
+.site-footer__nav__list {
+  list-style: none;
+  margin: 0;
+
+  @include below(medium) {
+    flex: 1;
+  }
+}
+
+// items
+
+.site-footer__nav__item {
+  margin-bottom: gutter(1);
+}
+
+// Inline items
+
+.site-footer__nav__item--inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Links
+
+.site-footer__nav__link {
+  display: inline-block;
+  white-space: nowrap;
+  color: $colour-white;
+
+  &:hover {
+    color: $colour-alpha;
+  }
+}
+
+// Icons
+
+.site-footer__nav__icon {
+  display: block;
+
+  path {
+    transition: map-get($core-interactions, 'transition');
+
+    .site-footer__nav__link:hover & {
+      fill: $colour-alpha;
+    }
+  }
+}
+
+//
+// Copyright
+// ==========================================================================
+
+.site-footer__copy {
+  display: block;
+  font-size: 1em;
+
+  @include below(medium) {
+    margin-top: gutter(1);
+  }
+
+  @include above(medium) {
+    margin-top: gutter(7.5);
+  }
+}

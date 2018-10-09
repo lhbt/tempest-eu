@@ -1,0 +1,39 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
+// ==========================================================================
+// Mobile menu
+// ==========================================================================
+
+.mobile-menu__nav {
+  margin-top: gutter(4);
+  font-size: 16px;
+}
+
+// List
+
+.mobile-menu__nav .primary-nav__list {
+  display: block;
+}
+
+// Items
+
+.mobile-menu__nav .primary-nav__item {
+  display: block;
+  margin-left: 0;
+  text-align: center;
+}
+
+// Login
+
+.mobile-menu__nav .primary-nav__item--login {
+  margin-top: gutter(3);
+  padding-top: gutter(6);
+  border-top: border('bravo');
+}
+
+// Links
+
+.mobile-menu__nav .primary-nav__item:not(.primary-nav__item--login) .primary-nav__link {
+  padding: 19px gutter(2);
+}
