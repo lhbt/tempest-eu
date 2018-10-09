@@ -1,23 +1,5 @@
 [
   {
-    "name": "Druid",
-    "specs": [
-      {
-        "name": "Balance",
-        "priority": "low"
-      }
-    ]
-  },
-  {
-    "name": "DeathKnight",
-    "specs": [
-      {
-        "name": "Frost",
-        "priority": "high"
-      }
-    ]
-  },
-  {
     "name": "Hunter",
     "specs": [
       {

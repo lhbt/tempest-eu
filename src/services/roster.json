@@ -3,9 +3,9 @@
     "name": "Tanks",
     "players": [
       {
-        "name": "Subbie",
+        "name": "Collard",
         "nationality": "GB",
-        "main": "druid"
+        "main": "monk"
       },
       {
         "name": "Moon",
@@ -23,9 +23,9 @@
         "main": "rogue"
       },
       {
-        "name": "Brontoburger",
+        "name": "Bronter",
         "nationality": "SE",
-        "main": "deathknight"
+        "main": "warrior"
       },
       {
         "name": "Unortodox",
@@ -38,19 +38,9 @@
         "main": "demonhunter"
       },
       {
-        "name": "Zujrogue",
+        "name": "Roguejil",
         "nationality": "IE",
         "main": "rogue"
-      },
-      {
-        "name": "Shinomu",
-        "nationality": "GB",
-        "main": "monk"
-      },
-      {
-        "name": "Keknight",
-        "nationality": "GB",
-        "main": "deathknight"
       },
       {
         "name": "Hoofmanjoe",
@@ -68,14 +58,9 @@
         "main": "druid"
       },
       {
-        "name": "Nezaris",
-        "nationality": "GB",
-        "main": "hunter"
-      },
-      {
-        "name": "Exahunt",
+        "name": "Exalock",
         "nationality": "BE",
-        "main": "hunter"
+        "main": "warlock"
       },
       {
         "name": "Dewdle",
@@ -113,7 +98,7 @@
         "main": "monk"
       },
       {
-        "name": "Ilyiasral",
+        "name": "Diceahh",
         "nationality": "GB",
         "main": "druid"
       },
@@ -126,6 +111,11 @@
         "name": "Vetrie",
         "nationality": "SI",
         "main": "shaman"
+      },
+      {
+        "name": "Courtinia",
+        "nationality": "NO",
+        "main": "priest"
       }
     ]
   }
