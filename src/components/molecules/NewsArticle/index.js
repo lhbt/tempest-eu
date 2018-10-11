@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import Youtube from 'react-youtube'
+import ImageZoom from 'react-medium-image-zoom'
 
 import './styles.scss'
 
@@ -24,7 +25,18 @@ const NewsArticle = ({
   return (
     <div className={componentClasses} {...props}>
       <Heading className="news-article__heading" level={2}>{article.title}</Heading>
-      {article.img && <img className="news-article__img" src={article.img} alt={article.title} />}
+      {article.img && 
+        <ImageZoom 
+          className="news-article__img" 
+          image={{
+            src: article.img,
+            alt: article.title,
+          }}
+          zoomImage={{
+            src: article.img,
+            alt: article.title,
+          }} 
+        />}
       {article.video && <Youtube videoId={article.video} opts={opts} />}
       <p className="news-article__content">{article.text}</p>
     </div>

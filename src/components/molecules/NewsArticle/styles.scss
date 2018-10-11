@@ -2,7 +2,7 @@
 @import '../../../styles/tools/tools.scss';
 
 .news-article__img {
-  max-width: 800px;
+  max-width: 100%;
 
   @include below(small) {
     max-width: 100%;
@@ -12,10 +12,12 @@
 .news-article__content {
   padding-top: 20px;
   font-size: 24px;
+  margin-bottom: 52px;
 }
 
 .news-article__heading {
   font-size: 44px;
+  margin-bottom: 10px;
 }
 
 .news-article {
