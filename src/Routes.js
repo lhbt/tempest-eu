@@ -9,7 +9,7 @@ import GuildDrawingsPage from './components/pages/GuildDrawingsPage'
 export default
   <Switch>
     <Route path="/" exact component={HomePage} />
-    <Route path="/roster" exact component={RosterPage} />
-    <Route path="/recruitment" exact component={RecruitmentPage} />
+    <Route path="/roster" component={RosterPage} />
+    <Route path="/recruitment" component={RecruitmentPage} />
     <Route path="/guild-drawings" component={GuildDrawingsPage} />
   </Switch>

@@ -1,13 +1,30 @@
+@import '../../../styles/settings/settings.scss';
+@import '../../../styles/tools/tools.scss';
+
 .guild-drawings__wrapper {
+  @include mobile-gutter;
+
   margin: 0 auto;
   padding-top: 30px;
   max-width: 1200px;
   text-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 24px;
+
+  @include above(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include above(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .guild-drawings__heading {
   color: white;
   font-size: 18px;
+  margin-bottom: gutter(1);
 }
 
 .marks-drawing__img {
