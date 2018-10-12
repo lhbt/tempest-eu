@@ -4,7 +4,6 @@ import ImageZoom from 'react-medium-image-zoom'
 
 import './styles.scss'
 
-import LazyImage from '../../atoms/LazyImage'
 import PageTemplate from '../../templates/PageTemplate/index'
 import Header from '../../organisms/Header'
 
