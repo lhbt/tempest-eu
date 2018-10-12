@@ -36,6 +36,6 @@ jobs:
       # run tests!
       - run: yarn build
       - deploy:
-          command: yarn deploy
+          command: node deploy.js
 
 
