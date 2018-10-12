@@ -1,5 +1,10 @@
 [
     {
+        "img": "/media/images/grinch.png",
+        "caption": "Made by Mikkel, age 25",
+        "title": "The Grinch"
+    },
+    {
         "img": "/media/images/best druid.png",
         "caption": "Made by Joe, age 19",
         "title": "mad paint skills"
