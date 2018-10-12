@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": ".circleci/deploy.js"
+    "deploy": "deploy.js"
   },
   "eslintConfig": {
     "extends": "react-app"
