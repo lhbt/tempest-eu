@@ -1,9 +1,27 @@
 [
   {
-    "name": "Hunter",
+    "name": "Monk",
     "specs": [
       {
-        "name": "Beast Mastery",
+        "name": "Mistweaver",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Shaman",
+    "specs": [
+      {
+        "name": "Restoration",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Warrior",
+    "specs": [
+      {
+        "name": "Arms",
         "priority": "high"
       }
     ]
