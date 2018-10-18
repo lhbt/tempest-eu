@@ -1,5 +1,15 @@
 [
     {
+        "img": "/media/images/mark is upset.png",
+        "caption": "Made by Mark, age 24",
+        "title": "Mark sees dead people everywhere"
+    },
+    {
+        "img": "/media/images/joe and chop love.jpg",
+        "caption": "Made by Joe, age 25",
+        "title": "Chop + Joe = <3"
+    },
+    {
         "img": "/media/images/grinch.png",
         "caption": "Made by Mikkel, age 25",
         "title": "The Grinch"
