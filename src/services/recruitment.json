@@ -26,11 +26,33 @@
     ]
   },
   {
+    "name": "Death Knight",
+    "specs": [
+      {
+        "name": "Blood",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Druid",
+    "specs": [
+      {
+        "name": "Guardian",
+        "priority": "medium"
+      }
+    ]
+  },
+  {
     "name": "Warrior",
     "specs": [
       {
         "name": "Arms",
         "priority": "high"
+      },
+      {
+        "name": "Protection",
+        "priority": "medium"
       }
     ]
   },
