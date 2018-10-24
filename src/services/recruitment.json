@@ -5,6 +5,14 @@
       {
         "name": "Mistweaver",
         "priority": "high"
+      },
+      {
+        "name": "Windwalker",
+        "priority": "high"
+      },
+      {
+        "name": "Brewmaster",
+        "priority": "high"
       }
     ]
   },
@@ -22,6 +30,23 @@
     "specs": [
       {
         "name": "Arms",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Rogue",
+    "specs": [
+      {
+        "name": "Assassination",
+        "priority": "high"
+      },
+      {
+        "name": "Subtlety",
+        "priority": "high"
+      },
+      {
+        "name": "Outlaw",
         "priority": "high"
       }
     ]
