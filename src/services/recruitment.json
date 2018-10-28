@@ -24,6 +24,15 @@
         "priority": "high"
       }
     ]
+  }, 
+  {
+    "name": "Hunter",
+    "specs": [
+      {
+        "name": "Beast Mastery",
+        "priority": "high"
+      }
+    ]
   },
   {
     "name": "Death Knight",
