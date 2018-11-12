@@ -1,31 +1,5 @@
 [
   {
-    "name": "Monk",
-    "specs": [
-      {
-        "name": "Mistweaver",
-        "priority": "high"
-      },
-      {
-        "name": "Windwalker",
-        "priority": "high"
-      },
-      {
-        "name": "Brewmaster",
-        "priority": "high"
-      }
-    ]
-  },
-  {
-    "name": "Shaman",
-    "specs": [
-      {
-        "name": "Restoration",
-        "priority": "high"
-      }
-    ]
-  }, 
-  {
     "name": "Hunter",
     "specs": [
       {
@@ -35,32 +9,10 @@
     ]
   },
   {
-    "name": "Death Knight",
-    "specs": [
-      {
-        "name": "Blood",
-        "priority": "high"
-      }
-    ]
-  },
-  {
     "name": "Druid",
     "specs": [
       {
-        "name": "Guardian",
-        "priority": "medium"
-      }
-    ]
-  },
-  {
-    "name": "Warrior",
-    "specs": [
-      {
-        "name": "Arms",
-        "priority": "high"
-      },
-      {
-        "name": "Protection",
+        "name": "Balance",
         "priority": "medium"
       }
     ]
@@ -70,15 +22,7 @@
     "specs": [
       {
         "name": "Assassination",
-        "priority": "high"
-      },
-      {
-        "name": "Subtlety",
-        "priority": "high"
-      },
-      {
-        "name": "Outlaw",
-        "priority": "high"
+        "priority": "medium"
       }
     ]
   }
