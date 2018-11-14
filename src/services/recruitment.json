@@ -9,6 +9,15 @@
     ]
   },
   {
+    "name": "Warrior",
+    "specs": [
+      {
+        "name": "Arms",
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "name": "Druid",
     "specs": [
       {
