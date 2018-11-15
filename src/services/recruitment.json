@@ -1,18 +1,13 @@
 [
   {
-    "name": "Hunter",
+    "name": "Death Knight",
     "specs": [
       {
-        "name": "Beast Mastery",
-        "priority": "high"
-      }
-    ]
-  },
-  {
-    "name": "Warrior",
-    "specs": [
+        "name": "Frost",
+        "priority": "medium"
+      },
       {
-        "name": "Arms",
+        "name": "Blood",
         "priority": "high"
       }
     ]
@@ -23,6 +18,41 @@
       {
         "name": "Balance",
         "priority": "medium"
+      },
+      {
+        "name": "Guardian",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Hunter",
+    "specs": [
+      {
+        "name": "Beast Mastery",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Monk",
+    "specs": [
+      {
+        "name": "Windwalker",
+        "priority": "medium"
+      },
+      {
+        "name": "Brewmaster",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "name": "Paladin",
+    "specs": [
+      {
+        "name": "Protection",
+        "priority": "medium"
       }
     ]
   },
@@ -32,6 +62,15 @@
       {
         "name": "Assassination",
         "priority": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Warrior",
+    "specs": [
+      {
+        "name": "Arms",
+        "priority": "high"
       }
     ]
   }
