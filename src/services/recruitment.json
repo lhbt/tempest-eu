@@ -3,10 +3,6 @@
     "name": "Death Knight",
     "specs": [
       {
-        "name": "Frost",
-        "priority": "medium"
-      },
-      {
         "name": "Blood",
         "priority": "high"
       }
@@ -15,10 +11,6 @@
   {
     "name": "Druid",
     "specs": [
-      {
-        "name": "Balance",
-        "priority": "medium"
-      },
       {
         "name": "Guardian",
         "priority": "high"
@@ -38,10 +30,6 @@
     "name": "Monk",
     "specs": [
       {
-        "name": "Windwalker",
-        "priority": "medium"
-      },
-      {
         "name": "Brewmaster",
         "priority": "high"
       }
@@ -57,11 +45,19 @@
     ]
   },
   {
-    "name": "Rogue",
+    "name": "Mage",
     "specs": [
       {
-        "name": "Assassination",
-        "priority": "medium"
+        "name": "Fire",
+        "priority": "high"
+      },
+      {
+        "name": "Frost",
+        "priority": "high"
+      },
+      {
+        "name": "Arcane",
+        "priority": "high"
       }
     ]
   },
@@ -70,7 +66,7 @@
     "specs": [
       {
         "name": "Arms",
-        "priority": "high"
+        "priority": "low"
       }
     ]
   }
