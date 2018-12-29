@@ -1,23 +1,5 @@
 [
   {
-    "name": "Death Knight",
-    "specs": [
-      {
-        "name": "Blood",
-        "priority": "high"
-      }
-    ]
-  },
-  {
-    "name": "Druid",
-    "specs": [
-      {
-        "name": "Guardian",
-        "priority": "high"
-      }
-    ]
-  },
-  {
     "name": "Hunter",
     "specs": [
       {
@@ -30,8 +12,8 @@
     "name": "Monk",
     "specs": [
       {
-        "name": "Brewmaster",
-        "priority": "high"
+        "name": "Windwalker",
+        "priority": "medium"
       }
     ]
   },
@@ -39,7 +21,7 @@
     "name": "Paladin",
     "specs": [
       {
-        "name": "Protection",
+        "name": "Retribution",
         "priority": "medium"
       }
     ]
@@ -49,23 +31,53 @@
     "specs": [
       {
         "name": "Fire",
-        "priority": "high"
+        "priority": "medium"
       },
       {
         "name": "Frost",
-        "priority": "high"
+        "priority": "medium"
       },
       {
         "name": "Arcane",
-        "priority": "high"
+        "priority": "medium"
       }
     ]
   },
   {
-    "name": "Warrior",
+    "name": "Priest",
     "specs": [
       {
-        "name": "Arms",
+        "name": "Shadow",
+        "priority": "low"
+      }
+    ]
+  },
+  {
+    "name": "Rogue",
+    "specs": [
+      {
+        "name": "Outlaw",
+        "priority": "low"
+      },
+      {
+        "name": "Subtlety",
+        "priority": "low"
+      },
+      {
+        "name": "Assassination",
+        "priority": "low"
+      }
+    ]
+  },
+  {
+    "name": "Shaman",
+    "specs": [
+      {
+        "name": "Elemental",
+        "priority": "high"
+      },
+      {
+        "name": "Enhancement",
         "priority": "low"
       }
     ]
