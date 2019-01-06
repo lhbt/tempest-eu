@@ -1,5 +1,32 @@
 [
   {
+    "name": "Druid",
+    "specs": [
+      {
+        "name": "Guardian",
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Demon Hunter",
+    "specs": [
+      {
+        "name": "Vengeance",
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Death Knight",
+    "specs": [
+      {
+        "name": "Blood",
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "name": "Hunter",
     "specs": [
       {
@@ -14,6 +41,10 @@
       {
         "name": "Windwalker",
         "priority": "medium"
+      },
+      {
+        "name": "Brewmaster",
+        "priority": "high"
       }
     ]
   },
@@ -22,6 +53,10 @@
     "specs": [
       {
         "name": "Retribution",
+        "priority": "medium"
+      },
+      {
+        "name": "Protection",
         "priority": "medium"
       }
     ]
@@ -57,15 +92,15 @@
     "specs": [
       {
         "name": "Outlaw",
-        "priority": "low"
+        "priority": "medium"
       },
       {
         "name": "Subtlety",
-        "priority": "low"
+        "priority": "medium"
       },
       {
         "name": "Assassination",
-        "priority": "low"
+        "priority": "medium"
       }
     ]
   },
@@ -79,6 +114,15 @@
       {
         "name": "Enhancement",
         "priority": "low"
+      }
+    ]
+  },
+  {
+    "name": "Warrior",
+    "specs": [
+      {
+        "name": "Protection",
+        "priority": "medium"
       }
     ]
   }
