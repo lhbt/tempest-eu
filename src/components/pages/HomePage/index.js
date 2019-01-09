@@ -18,7 +18,7 @@ const HomePage = () => (
     </Helmet>
     <div className="homepage__wrapper">
       <div className="homepage__left-column">
-        <Recruitment className="homepage__recruitment" />
+        <Recruitment />
       </div>
       <div className="homepage__right-column">
         <NewsContainer />
