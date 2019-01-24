@@ -3,14 +3,14 @@
     "name": "Tanks",
     "players": [
       {
-        "name": "Collard",
-        "nationality": "GB",
+        "name": "Shomee",
+        "nationality": "RU",
         "main": "monk"
       },
       {
-        "name": "Moon",
-        "nationality": "GB",
-        "main": "monk"
+        "name": "Rhia",
+        "nationality": "GR",
+        "main": "deathknight"
       }
     ]
   },
@@ -23,14 +23,14 @@
         "main": "rogue"
       },
       {
-        "name": "Bronter",
-        "nationality": "SE",
-        "main": "warrior"
+        "name": "Duckstabkick",
+        "nationality": "RS",
+        "main": "rogue"
       },
       {
-        "name": "Unortodox",
-        "nationality": "BG",
-        "main": "monk"
+        "name": "Obli",
+        "nationality": "GB",
+        "main": "deathknight"
       },
       {
         "name": "Kalivias",
@@ -38,14 +38,14 @@
         "main": "demonhunter"
       },
       {
-        "name": "Roguejil",
-        "nationality": "IE",
-        "main": "rogue"
+        "name": "Rhyno",
+        "nationality": "GB",
+        "main": "warrior"
       },
       {
-        "name": "Hoofmanjoe",
-        "nationality": "GB",
-        "main": "paladin"
+        "name": "Hulksmash",
+        "nationality": "BG",
+        "main": "warrior"
       }
     ]
   },
@@ -78,14 +78,34 @@
         "main": "warlock"
       },
       {
-        "name": "Synaria",
+        "name": "Cryonet",
         "nationality": "DK",
         "main": "mage"
+      },
+      {
+        "name": "Brontolina",
+        "nationality": "SE",
+        "main": "hunter"
+      },
+      {
+        "name": "Svedkat",
+        "nationality": "SE",
+        "main": "hunter"
       },
       {
         "name": "Aluthana",
         "nationality": "SE",
         "main": "priest"
+      },
+      {
+        "name": "Blue",
+        "nationality": "GB",
+        "main": "druid"
+      },
+      {
+        "name": "Bad",
+        "nationality": "DK",
+        "main": "shaman"
       }
     ]
   },
@@ -108,8 +128,8 @@
         "main": "paladin"
       },
       {
-        "name": "Vetrie",
-        "nationality": "SI",
+        "name": "Shamjil",
+        "nationality": "IE",
         "main": "shaman"
       },
       {
