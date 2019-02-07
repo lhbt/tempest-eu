@@ -1,36 +1,26 @@
 [
   {
-    "name": "Druid",
-    "specs": [
-      {
-        "name": "Guardian",
-        "priority": "medium"
-      }
-    ]
-  },
-  {
-    "name": "Demon Hunter",
-    "specs": [
-      {
-        "name": "Vengeance",
-        "priority": "medium"
-      }
-    ]
-  },
-  {
     "name": "Death Knight",
     "specs": [
       {
         "name": "Blood",
-        "priority": "high"
+        "priority": "medium"
       }
     ]
   },
   {
-    "name": "Hunter",
+    "name": "Mage",
     "specs": [
       {
-        "name": "Beast Mastery",
+        "name": "Frost",
+        "priority": "high"
+      },
+      {
+        "name": "Fire",
+        "priority": "high"
+      },
+      {
+        "name": "Arcane",
         "priority": "high"
       }
     ]
@@ -53,11 +43,11 @@
     "specs": [
       {
         "name": "Retribution",
-        "priority": "medium"
+        "priority": "high"
       },
       {
         "name": "Protection",
-        "priority": "medium"
+        "priority": "high"
       }
     ]
   },
@@ -83,7 +73,7 @@
     "specs": [
       {
         "name": "Shadow",
-        "priority": "low"
+        "priority": "high"
       }
     ]
   },
@@ -92,15 +82,15 @@
     "specs": [
       {
         "name": "Outlaw",
-        "priority": "medium"
+        "priority": "high"
       },
       {
         "name": "Subtlety",
-        "priority": "medium"
+        "priority": "high"
       },
       {
         "name": "Assassination",
-        "priority": "medium"
+        "priority": "high"
       }
     ]
   },
@@ -109,17 +99,25 @@
     "specs": [
       {
         "name": "Elemental",
-        "priority": "high"
+        "priority": "medium"
       },
       {
         "name": "Enhancement",
-        "priority": "low"
+        "priority": "medium"
       }
     ]
   },
   {
     "name": "Warrior",
     "specs": [
+      {
+        "name": "Arms",
+        "priority": "medium"
+      },
+      {
+        "name": "Fury",
+        "priority": "medium"
+      },
       {
         "name": "Protection",
         "priority": "medium"
