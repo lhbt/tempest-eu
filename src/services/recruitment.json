@@ -52,23 +52,6 @@
     ]
   },
   {
-    "name": "Mage",
-    "specs": [
-      {
-        "name": "Fire",
-        "priority": "medium"
-      },
-      {
-        "name": "Frost",
-        "priority": "medium"
-      },
-      {
-        "name": "Arcane",
-        "priority": "medium"
-      }
-    ]
-  },
-  {
     "name": "Priest",
     "specs": [
       {
@@ -112,15 +95,15 @@
     "specs": [
       {
         "name": "Arms",
-        "priority": "medium"
+        "priority": "high"
       },
       {
         "name": "Fury",
-        "priority": "medium"
+        "priority": "high"
       },
       {
         "name": "Protection",
-        "priority": "medium"
+        "priority": "high"
       }
     ]
   }
