@@ -1,10 +1,10 @@
 [
   {
-    "name": "Death Knight",
+    "name": "Druid",
     "specs": [
       {
-        "name": "Blood",
-        "priority": "medium"
+        "name": "Balance",
+        "priority": "low"
       }
     ]
   },
@@ -26,27 +26,10 @@
     ]
   },
   {
-    "name": "Monk",
-    "specs": [
-      {
-        "name": "Windwalker",
-        "priority": "medium"
-      },
-      {
-        "name": "Brewmaster",
-        "priority": "high"
-      }
-    ]
-  },
-  {
     "name": "Paladin",
     "specs": [
       {
         "name": "Retribution",
-        "priority": "high"
-      },
-      {
-        "name": "Protection",
         "priority": "high"
       }
     ]
@@ -57,6 +40,14 @@
       {
         "name": "Shadow",
         "priority": "high"
+      },
+      {
+        "name": "Holy",
+        "priority": "high"
+      },
+      {
+        "name": "Discipline",
+        "priority": "high"
       }
     ]
   },
@@ -64,16 +55,8 @@
     "name": "Rogue",
     "specs": [
       {
-        "name": "Outlaw",
-        "priority": "high"
-      },
-      {
-        "name": "Subtlety",
-        "priority": "high"
-      },
-      {
         "name": "Assassination",
-        "priority": "high"
+        "priority": "medium"
       }
     ]
   },
@@ -82,28 +65,24 @@
     "specs": [
       {
         "name": "Elemental",
-        "priority": "medium"
+        "priority": "high"
       },
       {
-        "name": "Enhancement",
-        "priority": "medium"
+        "name": "Restoration",
+        "priority": "high"
       }
     ]
   },
   {
-    "name": "Warrior",
+    "name": "Warlock",
     "specs": [
       {
-        "name": "Arms",
-        "priority": "high"
+        "name": "Affliction",
+        "priority": "medium"
       },
       {
-        "name": "Fury",
-        "priority": "high"
-      },
-      {
-        "name": "Protection",
-        "priority": "high"
+        "name": "Destruction",
+        "priority": "medium"
       }
     ]
   }
