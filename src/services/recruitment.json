@@ -1,14 +1,5 @@
 [
   {
-    "name": "Druid",
-    "specs": [
-      {
-        "name": "Balance",
-        "priority": "low"
-      }
-    ]
-  },
-  {
     "name": "Mage",
     "specs": [
       {
