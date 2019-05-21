@@ -1,27 +1,19 @@
 [
-  {
-    "name": "Mage",
+   {
+    "name": "Druid",
     "specs": [
       {
-        "name": "Frost",
-        "priority": "high"
-      },
-      {
-        "name": "Fire",
-        "priority": "high"
-      },
-      {
-        "name": "Arcane",
-        "priority": "high"
+        "name": "Feral",
+        "priority": "low"
       }
     ]
   },
   {
-    "name": "Paladin",
+    "name": "Monk",
     "specs": [
       {
-        "name": "Retribution",
-        "priority": "high"
+        "name": "Windwalker",
+        "priority": "low"
       }
     ]
   },
@@ -39,15 +31,6 @@
       {
         "name": "Discipline",
         "priority": "high"
-      }
-    ]
-  },
-  {
-    "name": "Rogue",
-    "specs": [
-      {
-        "name": "Assassination",
-        "priority": "medium"
       }
     ]
   },
