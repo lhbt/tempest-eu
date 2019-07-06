@@ -3,14 +3,14 @@
     "name": "Tanks",
     "players": [
       {
-        "name": "Shomee",
-        "nationality": "RU",
+        "name": "Mhelody",
+        "nationality": "GE",
         "main": "monk"
       },
       {
-        "name": "Rhia",
-        "nationality": "GR",
-        "main": "deathknight"
+        "name": "Moon",
+        "nationality": "GB",
+        "main": "monk"
       }
     ]
   },
@@ -18,34 +18,39 @@
     "name": "Melees",
     "players": [
       {
-        "name": "Zynthe",
+        "name": "Chickenuget",
+        "nationality": "GB",
+        "main": "druid"
+      },
+      {
+        "name": "Alacarda",
         "nationality": "GB",
         "main": "rogue"
       },
       {
-        "name": "Duckstabkick",
-        "nationality": "RS",
-        "main": "rogue"
-      },
-      {
-        "name": "Obli",
-        "nationality": "GB",
+        "name": "Ruvic",
+        "nationality": "DK",
         "main": "deathknight"
       },
       {
-        "name": "Kalivias",
-        "nationality": "GB",
+        "name": "Khan",
+        "nationality": "DK",
         "main": "demonhunter"
       },
       {
-        "name": "Rhyno",
-        "nationality": "GB",
+        "name": "Markus",
+        "nationality": "SE",
         "main": "warrior"
       },
       {
-        "name": "Hulksmash",
-        "nationality": "BG",
+        "name": "Chocbear",
+        "nationality": "UG",
         "main": "warrior"
+      },
+      {
+        "name": "Blackmanguy",
+        "nationality": "SE",
+        "main": "rogue"
       }
     ]
   },
@@ -58,34 +63,34 @@
         "main": "druid"
       },
       {
-        "name": "Exalock",
-        "nationality": "BE",
-        "main": "warlock"
+        "name": "Shomee",
+        "nationality": "RU",
+        "main": "druid"
       },
       {
-        "name": "Dewdle",
-        "nationality": "DK",
+        "name": "Troubler",
+        "nationality": "GB",
         "main": "mage"
       },
       {
-        "name": "Yuki",
-        "nationality": "FR",
-        "main": "warlock"
-      },
-      {
-        "name": "Korupcija",
-        "nationality": "HR",
-        "main": "warlock"
-      },
-      {
-        "name": "Cryonet",
-        "nationality": "DK",
+        "name": "Rushimage",
+        "nationality": "GB",
         "main": "mage"
       },
       {
-        "name": "Brontolina",
-        "nationality": "SE",
-        "main": "hunter"
+        "name": "Birthdays",
+        "nationality": "KW",
+        "main": "mage"
+      },
+      {
+        "name": "Kyle",
+        "nationality": "GB",
+        "main": "warlock"
+      },
+      {
+        "name": "Courtinia",
+        "nationality": "NO",
+        "main": "warlock"
       },
       {
         "name": "Svedkat",
@@ -93,19 +98,19 @@
         "main": "hunter"
       },
       {
-        "name": "Aluthana",
-        "nationality": "SE",
+        "name": "Voe",
+        "nationality": "LV",
+        "main": "hunter"
+      },
+      {
+        "name": "Preepjil",
+        "nationality": "IE",
         "main": "priest"
       },
       {
-        "name": "Blue",
+        "name": "Seacer",
         "nationality": "GB",
-        "main": "druid"
-      },
-      {
-        "name": "Bad",
-        "nationality": "DK",
-        "main": "shaman"
+        "main": "priest"
       }
     ]
   },
@@ -128,13 +133,13 @@
         "main": "paladin"
       },
       {
-        "name": "Shamjil",
-        "nationality": "IE",
+        "name": "Cyclone",
+        "nationality": "GB",
         "main": "shaman"
       },
       {
-        "name": "Courtinia",
-        "nationality": "NO",
+        "name": "Maylin",
+        "nationality": "DK",
         "main": "priest"
       }
     ]
